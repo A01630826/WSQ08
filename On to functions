@@ -1,0 +1,29 @@
+def resta (num1,num2):
+  arit=int(num1-num2)
+return arit
+
+def mult (num1,num2):
+  arit=int(num1*num2)
+return arit
+
+def diven (num1,num2):
+  arit=num1//num2
+return arit
+
+def divres (num1,num2):
+  arit=num1%num2
+return arit
+
+# main program
+print(“Este programa ejecuta las operaciones de resta, multiplicacion y division de dos numeros dados”)
+
+num1 = float(input(“Ingrese un numero: “))
+num2 = float(input(“Ingrese otro numero: “))
+
+print(“Los resultados de las operaciones son: “)
+print(“resta de “+(str(num1))+ “- ” +(str(num2))+”: “+str(resta(num1,num2)))
+print(“producto de ” + (str(num1)) + “* ” + (str(num2)) + “: ” + str(mult(num1,num2)))
+print(“Resultado entero de la division de ” + (str(num1)+” “) + “/ ” + (str(num2)) + “: ” + str(diven(num1,num2)))
+print(“Residuo de la division de ” + (str(num1)) + “/” + (str(num2)) + “: ” + str(divres(num1,num2)))
+
+ 
